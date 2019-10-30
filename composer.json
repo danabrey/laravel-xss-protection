@@ -1,0 +1,25 @@
+{
+    "name": "globalinitiative/laravel-xss-protection",
+    "description": "A middleware to strip <iframe> and <script> tags from request input",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5.0",
+        "laravel/framework": "^5.0|^6.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.0|^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GlobalInitiative\\XSSProtection\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "GlobalInitiative\\XSSProtection\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
