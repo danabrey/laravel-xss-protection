@@ -2,6 +2,7 @@
     "name": "globalinitiative/laravel-xss-protection",
     "description": "A middleware to strip <iframe> and <script> tags from request input",
     "license": "MIT",
+    "version": "1.0.0",
     "require": {
         "php": ">=5.5.0",
         "laravel/framework": "^5.0|^6.0"
